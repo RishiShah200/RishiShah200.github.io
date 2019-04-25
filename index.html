@@ -271,8 +271,8 @@
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-            <i class="fab fa-fw fa-twitter"></i>
+          <a class="btn btn-outline-light btn-social text-center rounded-circle" href="mailto:rishishah200@gmail.com">
+            <i class="far fa-envelope"></i>
           </a>
         </li>
         <li class="list-inline-item">
@@ -317,14 +317,44 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Robotics Building</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" id="tankdriveimage" src="RobotPhotos/onesidetankdrive.jpg" alt="One Side of Tank Drive">
-            <!--does not work yet  <button id="clickMe" onClick="changeTankImage();"></button> !-->
-            <p class="mb-5">The first thing that I built on the team was a four motor tank drive with omni wheels for
-              all six wheels. This is to allow for easy manuverability with the robot while driving. I chose to motor
-              the back 4 omni wheels and chain the front wheel with a 12-tooth sprocket on both sides. Additionally,
-              the tank drives allows for more room to add additional components to the robot and was easy for me to
-              program. Ultimately, making a 4 motor tank drive allowed for more power which in turn helped our robot
-              climb the center platform better.</p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block h-10 img-fluid mb-5" id="tankdriveimage" src="RobotPhotos/initalTankDrive.JPG"
+                    alt=" One Side of Tank Drive">
+                  <p class="mb-5">
+                    Initially, we decided to have a 4 wheel drive with 2 motors. The back 2 wheels has motors which was
+                    geared to the front two wheels. Because of this design, we were not able to clib platform as there
+                    was not enough torque and the robot moved slowly.
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100  img-fluid mb-5" src="RobotPhotos/onesidetankdrive.jpg" alt=" One Side of Tank Drive">
+                  <p class="mb-5">We later realized that in order for us to be able to climb the center platform, we
+                    must change the drive. I decided to make it a 6 wheel drive instead of 4 with 4 motors. This is to
+                    allow for easy manuverability with the robot while driving. I
+                    chose to motor the back 4 omni wheels and chain the front wheels with a 12-tooth sprocket on both
+                    sides. Additionally, the tank drives allows for more room to add additional components to the robot
+                    and was easy for me to program. Ultimately, making a 4 motor tank drive allowed for more power
+                    which in turn helped our
+                    robot climb the center platform better. This is the same design that we used for the Banquet Night
+                    Bot.
+                  </p>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Close Project</a>
@@ -345,15 +375,43 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Robotics Building</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="RobotPhotos/forkclaw.jpg" alt="">
-            <p class="mb-5">I built a fork claw and cap rotator so that we can rotate the cap while it is in our
-              possession. Instead of using the normal 2 standoffs, i built it suing 4 so that we could effectively flip
-              the cap instead of trying to balance it on two standoffs. I connected the cap rotator to a motor using
-              two 24 tooth sprockets which were chained to each other in norder to flip the cap in the desired
-              direction. An additional benifit of this is we were able to pick up caps that were tilted on the field.
-              While we did not end up keeping this on the robot after the first competiton, it was effective while we
-              used it but ultimately used our harvester to flip caps instead.
-            </p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 mb-5" src="RobotPhotos/forkclaw.jpg" alt="First slide">
+                  <p class="mb-5">I built a fork claw and cap rotator so that we can rotate the cap while it is in our
+                    possession. Instead of using the normal 2 standoffs, i built it suing 4 so that we could
+                    effectively flip
+                    the cap instead of trying to balance it on two standoffs. I connected the cap rotator to a motor
+                    using
+                    two 24 tooth sprockets which were chained to each other in norder to flip the cap in the desired
+                    direction. An additional benifit of this is we were able to pick up caps that were tilted on the
+                    field.
+                    While we did not end up keeping this on the robot after the first competiton, it was effective
+                    while we
+                    used it but ultimately used our harvester to flip caps instead.
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="RobotPhotos/forkcapflip.jpeg" alt="Second slide">
+                  <p class="mb-5">
+
+                  </p>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Close Project</a>
@@ -374,13 +432,67 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-secondary text-uppercase mb-0">Robotics Building</h2>
             <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="RobotPhotos/roller1.jpg" alt="Roller Full View">
-            <p class="mb-5">After we decided to remove the cap flipper/rotator that I built, we decided to use our
-              harvester intake to flip caps as well. I made the intake roller by using two 30 tooth sprockets which
-              were connected to each other by 4 standoffs in the center of the rollers. The rollers were connected
-              using nylocks, ensureing that they would not come apart when coming in contact with caps or balls and
-              providing structural integrity. As a team, we decided to cover the rollers in mesh to make sure
-              entanglement did not occur with the other bots on the fiels which can lead to a disqualification.</p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 mb-5" src="RobotPhotos/roller1.jpg" alt="Roller Full View">
+                  <p class="mb-5">After we decided to remove the cap flipper/rotator that I built, we decided to use
+                    our
+                    harvester intake to flip caps as well. I made the intake roller by using two 30 tooth sprockets
+                    which
+                    were connected to each other by 4 standoffs in the center of the rollers. The rollers were
+                    connected
+                    using nylocks, ensureing that they would not come apart when coming in contact with caps or balls
+                    and
+                    providing structural integrity. As a team, we decided to cover the rollers in mesh to make sure
+                    entanglement did not occur with the other bots on the fiels which can lead to a disqualification.</p>
+                </div>
+                <div class="carousel-item">
+                  <video class="img-fluid mb-5" controls loop>
+                    <source src="RobotPhotos/rollerVideo1.mp4" type="video/mp4">
+                  </video>
+                  <p class="mb-5">
+                    Videos/Images of testing of intake using double roller
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 mb-5" src="RobotPhotos/rollerImage2.jpeg" alt="Third slide">
+                  <p class="mb-5">
+                    Videos/Images of testing of intake using double roller
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 mb-5" src="RobotPhotos/rollerImage3.jpeg" alt="Third slide">
+                  <p class="mb-5">
+                    Videos/Images of testing of intake using double roller
+                  </p>
+                </div>
+                <div class="carousel-item">
+                  <video class="img-fluid mb-5" controls loop>
+                    <source src="RobotPhotos/rollerVideo4.mp4" type="video/mp4">
+                  </video>
+                  <p class="mb-5">
+                    Videos/Images of testing of intake using double roller
+                  </p>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
               Close Project</a>
