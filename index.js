@@ -32,7 +32,7 @@ var element_position = $('#cardRobotics').offset().top;
 var screen_height = $(window).height();
 var activation_offset = 1.0; //determines how far up the the page the element needs to be before triggering the function
 var activation_point = element_position - (screen_height * activation_offset);
-var max_scroll_height = $('body').height() - screen_height - 2; //-5 for a little bit of buffer
+var max_scroll_height = $('body').height() - screen_height - 5; //-5 for a little bit of buffer
 
 //Does something when user scrolls to it OR
 //Does it when user has reached the bottom of the page and hasn't triggered the function yet
