@@ -107,3 +107,108 @@ $(window).on('scroll', function() {
         cardChemOly.classList.add('animate__animated', 'animate__zoomIn');
     }
 });
+
+
+//THE NEXT SECTION ON THE WEBSITE
+
+var element_position5 = $('#cardKumon').offset().top;
+var screen_height5 = $(window).height();
+var activation_offset5 = 1.0; //determines how far up the the page the element needs to be before triggering the function
+var activation_point5 = element_position5 - (screen_height5 * activation_offset5);
+var max_scroll_height5 = $('body').height() - screen_height5 - 5; //-5 for a little bit of buffer
+
+//Does something when user scrolls to it OR
+//Does it when user has reached the bottom of the page and hasn't triggered the function yet
+$(window).on('scroll', function() {
+    var y_scroll_pos5 = window.pageYOffset;
+
+    var element_in_view5 = y_scroll_pos5 > activation_point5;
+    var has_reached_bottom_of_page5 = max_scroll_height5 <= y_scroll_pos5 && !element_in_view5;
+
+    if (element_in_view5 || has_reached_bottom_of_page5) {
+        const cardChemOly = document.querySelector('#cardKumon');
+        cardChemOly.classList.add('animate__animated', 'animate__zoomIn');
+    }
+});
+
+var element_position6 = $('#cardSBPL').offset().top;
+var screen_height6 = $(window).height();
+var activation_offset6 = 1.0; //determines how far up the the page the element needs to be before triggering the function
+var activation_point6 = element_position6 - (screen_height6 * activation_offset6);
+var max_scroll_height6 = $('body').height() - screen_height6 - 5; //-5 for a little bit of buffer
+
+//Does something when user scrolls to it OR
+//Does it when user has reached the bottom of the page and hasn't triggered the function yet
+$(window).on('scroll', function() {
+    var y_scroll_pos6 = window.pageYOffset;
+
+    var element_in_view6 = y_scroll_pos6 > activation_point6;
+    var has_reached_bottom_of_page6 = max_scroll_height6 <= y_scroll_pos6 && !element_in_view6;
+
+    if (element_in_view6 || has_reached_bottom_of_page6) {
+        const cardCSC = document.querySelector('#cardSBPL');
+        cardCSC.classList.add('animate__animated', 'animate__zoomIn');
+    }
+});
+
+var element_position7 = $('#cardSeniorCenter').offset().top;
+var screen_height7 = $(window).height();
+var activation_offset7 = 1.0; //determines how far up the the page the element needs to be before triggering the function
+var activation_point7 = element_position7 - (screen_height7 * activation_offset7);
+var max_scroll_height7 = $('body').height() - screen_height7 - 5; //-5 for a little bit of buffer
+
+//Does something when user scrolls to it OR
+//Does it when user has reached the bottom of the page and hasn't triggered the function yet
+$(window).on('scroll', function() {
+    var y_scroll_pos7 = window.pageYOffset;
+
+    var element_in_view7 = y_scroll_pos7 > activation_point7;
+    var has_reached_bottom_of_page7 = max_scroll_height7 <= y_scroll_pos7 && !element_in_view7;
+
+    if (element_in_view7 || has_reached_bottom_of_page7) {
+        const cardCSC = document.querySelector('#cardSeniorCenter');
+        cardCSC.classList.add('animate__animated', 'animate__zoomIn');
+    }
+});
+
+var element_position8 = $('#cardHighSchool').offset().top;
+var screen_height8 = $(window).height();
+var activation_offset8 = 1.0; //determines how far up the the page the element needs to be before triggering the function
+var activation_point8 = element_position8 - (screen_height8 * activation_offset8);
+var max_scroll_height8 = $('body').height() - screen_height8 - 5; //-5 for a little bit of buffer
+
+//Does something when user scrolls to it OR
+//Does it when user has reached the bottom of the page and hasn't triggered the function yet
+$(window).on('scroll', function() {
+    var y_scroll_pos8 = window.pageYOffset;
+
+    var element_in_view8 = y_scroll_pos8 > activation_point8;
+    var has_reached_bottom_of_page8 = max_scroll_height8 <= y_scroll_pos8 && !element_in_view8;
+
+    if (element_in_view8 || has_reached_bottom_of_page8) {
+        const cardCSC = document.querySelector('#cardHighSchool');
+        cardCSC.classList.add('animate__animated', 'animate__zoomIn');
+    }
+});
+
+//TESTING OUT ANIMATING THE TITLES ON THE PAGES
+
+// var element_position9 = $('#extraCurricularsTitle').offset().top;
+// var screen_height9 = $(window).height();
+// var activation_offset9 = 1.0; //determines how far up the the page the element needs to be before triggering the function
+// var activation_point9 = element_position9 - (screen_height9 * activation_offset9);
+// var max_scroll_height9 = $('body').height() - screen_height9 - 5; //-5 for a little bit of buffer
+
+// //Does something when user scrolls to it OR
+// //Does it when user has reached the bottom of the page and hasn't triggered the function yet
+// $(window).on('scroll', function() {
+//     var y_scroll_pos9 = window.pageYOffset;
+
+//     var element_in_view9 = y_scroll_pos9 > activation_point9;
+//     var has_reached_bottom_of_page9 = max_scroll_height9 <= y_scroll_pos9 && !element_in_view9;
+
+//     if (element_in_view9 || has_reached_bottom_of_page9) {
+//         const cardCSC = document.querySelector('#extraCurricularsTitle');
+//         cardCSC.classList.add('animate__animated', 'animate__bounce');
+//     }
+// });
