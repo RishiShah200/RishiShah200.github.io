@@ -1,0 +1,13 @@
+Change the <link rel="stylesheet" href="https://unpkg.com/bulmaswatch/lux/bulmaswatch.min.css"> in the index.html file with the following:
+https://jenil.github.io/bulmaswatch/
+
+cosmo
+cyborg
+darkly
+flatly
+journal
+lux
+minty
+sandstone
+solar
+superhero

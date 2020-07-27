@@ -53,3 +53,13 @@ ScrollReveal().reveal('#cardKumon', {origin: 'bottom'})
 ScrollReveal().reveal('#cardSBPL', {origin: 'top'})
 ScrollReveal().reveal('#cardSeniorCenter', {origin: 'bottom'})
 ScrollReveal().reveal('#cardHighSchool', {origin: 'top'})
+
+
+
+var typedInterests = new Typed('#interests', {
+    strings: ['Interested in: <strong>Computer Science</strong>', 'Interested in: <strong>STEM</strong>', 'Interested in: <strong>Business</strong>'],
+    typeSpeed: 60,
+    backSpeed: 0,
+    smartBackspace: true, // this is a default
+    loop: true
+});
