@@ -40,7 +40,7 @@ var nodeArray = [
     document.querySelector('#cardHighSchool')
 ];
 
-ScrollReveal({ reset: true, duration: 2000, distance: '25%', scale: 0.85}); //changes for all the elements
+ScrollReveal({ reset: true, duration: 2000, distance: '25%', scale: 0.85, delay: 200}); //changes for all the elements
 //ScrollReveal().reveal('#cardRobotics'); //can add ScrollReveal().reveal('.EXAMPLE', { delay: 500 }); to target a specific element
 ScrollReveal().reveal(nodeArray)
 
@@ -61,5 +61,15 @@ var typedInterests = new Typed('#interests', {
     typeSpeed: 60,
     backSpeed: 0,
     smartBackspace: true, // this is a default
-    loop: true
+    loop: true,
 });
+
+
+// Initialize all elements with carousel class.
+const carousels = bulmaCarousel.attach('.carousel', options);
+
+// To access to bulmaCarousel instance of an element
+const element = document.querySelector('#my-element');
+if (element && element.bulmaCarousel) {
+	// bulmaCarousel instance is available as element.bulmaCarousel
+}
