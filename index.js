@@ -37,7 +37,12 @@ var nodeArray = [
     document.querySelector('#cardKumon'),
     document.querySelector('#cardSBPL'),
     document.querySelector('#cardSeniorCenter'),
-    document.querySelector('#cardHighSchool')
+    document.querySelector('#cardHighSchool'),
+
+    document.querySelector('#firstSection'),
+    document.querySelector('#secondSection'),
+    document.querySelector('#thirdSection'),
+    document.querySelector('#fourthSection')
 ];
 
 ScrollReveal({ reset: true, duration: 2000, distance: '25%', scale: 0.85, delay: 200}); //changes for all the elements
