@@ -57,7 +57,7 @@ ScrollReveal().reveal('#cardHighSchool', {origin: 'top'})
 
 
 var typedInterests = new Typed('#interests', {
-    strings: ['Interested in: <strong>Computer Science</strong>', 'Interested in: <strong>STEM</strong>', 'Interested in: <strong>Business</strong>'],
+    strings: ['Interested in: <strong>Computer Science</strong>', 'Interested in: <strong>STEM</strong>', 'Interested in: <strong>Economics</strong>'],
     typeSpeed: 60,
     backSpeed: 0,
     smartBackspace: true, // this is a default
